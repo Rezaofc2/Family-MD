@@ -218,7 +218,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     ]
     const listMessage = {
       text: judul,
-      footer: wm,
+      footer: colong2,
       mentions: await conn.parseMention(judul),
       title: '',
       buttonText: "Klik Disini",
