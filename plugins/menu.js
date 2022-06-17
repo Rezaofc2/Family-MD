@@ -189,7 +189,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       let judul = `${global.ucapan}, ${name}`.trim()
       const sections = [
       {
-        title: 'List Menu ' + namabot,
+        title: 'List Menu ' + colong2,
         rows: [
           { title: 'Semua Perintah', rowId: `${_p}? all` },
           { title: 'Game', rowId: `${_p}? game` },
